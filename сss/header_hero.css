@@ -1,0 +1,51 @@
+.hero_our_app{
+    margin-top: 175.63px;
+    display: flex;
+}
+
+.text{
+    margin-top: 47.5px;
+    margin-right: 130.25px;
+    margin-left: 193px;
+}
+
+.title_1{
+    width: 241.661px;
+    height: 82.272px;
+}
+
+.underscore_1{
+    width: 56px;
+    height: 2px;
+    margin-top: 32px;
+    margin-bottom: 39.75px;
+    background-color: #000;
+}
+
+.description{
+    width: 360.139px;
+    height: 107.334px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+#first_image{
+    width: 665px;
+    height: 434px;
+}
+
+#download{
+    margin-top: 43.91px;
+}
+
+.arrow{
+    padding-left: 15px;
+    width: 15.43px;
+    height: 16.82px; 
+}
+
+.element_vector_top{
+    width: 131.581px;
+    height: 115px;
+    align-self: flex-end;
+}
