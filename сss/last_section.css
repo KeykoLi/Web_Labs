@@ -1,0 +1,107 @@
+.last_section{
+    margin-top:143px;
+    width: 1600px;
+    height: 768px;
+    background-color:#F3F8FE;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.bg_rew{
+    margin-top: 140px;
+    width: 1120px;
+    height: 425px;
+    background:linear-gradient(208deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_3{
+    padding-top: 75.5px;
+    padding-left: 301.86px;
+    color:#ffffff;
+
+}
+.underscore_3{
+    width: 56px;
+    height: 2px;
+    margin-left: 534px;
+    background-color: #ffffff;
+}
+
+.rew_container{
+    display: flex;
+}
+
+.photo_of_person{
+    padding-top: 63px;
+    padding-right: 34.6px;
+    padding-left: 122px;
+}
+
+.container_about_person{
+    padding-top: 112.32px;
+    padding-right: 112.32px;
+    color: #ffffff;
+    padding-bottom: 79px;
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    font-size: 18.72px;
+}
+.description2{
+    padding-top: 12.82px;
+    color: #FFFFFFD9;
+}
+
+#second_image{
+    width: 133px;
+    height: 133px;
+    border-radius: 50%;
+    border: 4px solid #ffffff;
+}
+
+.rew_text{
+    padding-top: 56.02px;
+    width: 390.592px;
+    height: 108.297px;
+    line-height: 25px;
+    color: #FFFFFFE5;
+    text-align:justify;
+}
+
+.nav_page{
+    margin-top: 42px;
+    display: flex;
+    padding-bottom:146px ;
+}
+
+.arrow_left{
+    opacity: 0.4;
+}
+
+.arrow_nav{
+    cursor: pointer;
+}
+
+.circles_cont{
+    padding-left: 85.57px;
+    padding-right: 67.57px;
+    display: flex;
+}
+
+.circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:#5B9BF3;
+    margin-right: 18px;
+}
+
+.no-act_circle{
+    opacity: 30%;
+}
