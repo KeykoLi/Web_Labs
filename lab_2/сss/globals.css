@@ -4,11 +4,23 @@ body {
   max-height: 2804px;
 }
 
+@media screen and (max-width: 768px) {
+  body {
+    text-align: center;
+  }
+}
+
 .container {
   margin: 0 auto;
   width: 1600px;
   max-width: 100%;
-  overflow-x: hidden;
+  overflow: hidden;
+}
+
+@media screen and (min-width:1601px) {
+  .container{
+    width: 100%;
+  }
 }
 
 a {
@@ -36,6 +48,10 @@ button {
   cursor: pointer;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+}
 
 .circle_bg {
   width: 41px;
@@ -46,4 +62,10 @@ button {
   align-items: center;
   font-size: 24px;
   margin-right: 8px;
+}
+
+@media screen and (max-width:320px){
+  h1{
+    font-size:25px
+  }
 }

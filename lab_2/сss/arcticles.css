@@ -1,8 +1,25 @@
 .arcticles{
-    padding-top:170px;
+    margin-top:170px;
     background: 
-        url(../images/Vector_figure_bg.png) right no-repeat,
-        url(../images/element.svg) no-repeat 150px 300px;
+        url(../images/Vector_figure_bg.png) no-repeat right center,
+        url(../images/element.svg) no-repeat 170px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (min-width:1601) {
+    .arcticle{
+        background: 
+        url(../images/Vector_figure_bg.png) no-repeat right center,
+    }
+}
+
+@media screen and (max-width:320px) {
+    .arcticles{
+        background: white;
+    }
 }
 
 .title_2{
@@ -11,15 +28,25 @@
 
 .title_2_container{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .underscore_2{
     width: 56px;
     height: 2px;
-    margin-left: 719px;
     background-color: #000;
     margin-bottom: 72px;
+}
+
+.arcticles_container{
+    display: flex;
+}
+
+@media screen and (max-width:768px) {
+    .arcticles_container{
+        flex-direction: column;
+    }
+    
 }
 
 .arcticle{
@@ -27,18 +54,18 @@
     height: 512px;
     background-color: #ffffff; 
     border-radius: 10%;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     box-shadow: 2px 20px 9px #F3F8FE;
     margin-right: 34px;
-    text-align:justify;
-
 }
 
-.arcticles_container{
-    margin-left: 197px;
-    display: flex;
-    flex:row;
+@media screen and (max-width:768px){
+    .arcticle{
+        margin-right:auto;
+        margin-bottom:34px
+    }
 }
 
 .arcticle-img-top{
@@ -48,12 +75,12 @@
     border-top-right-radius: 10%;
 }
 .arcticle-body{
-    margin-left: 33px;
     margin-top: 29.4px;
 }
 
 .arcticle-title{
     line-height: 30px;
+    margin-bottom: 23px;
 }
 
 .AT-1{
@@ -95,7 +122,6 @@
 }
 
 #view_all{
-    margin-left: 657px;
     margin-top: 72px;
 }
 

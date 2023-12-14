@@ -13,10 +13,7 @@
 <body>
     <header class="container header">
         <div class="container header_container">
-            <div class="header__menu" onclick="toggleMenu()">
-                <img src="images/menu-96.png" alt="Menu icon">
-            </div>
-            <nav class="top_nav">
+            <nav id="nav-links" class="top_nav">
                 <ul>
                     <li class="header__nav-item">
                         <a class="header__nav-link-main" href="#"><b>Home</b></a>
@@ -35,6 +32,10 @@
                     </li>
                 </ul>
             </nav>
+            <div class="burger">
+                <span></span>
+            </div>
+            
             <div class="logo logo_top">
                 <div class="circle_bg top_circle_bg">
                     <span class="letter">T</span>
@@ -56,13 +57,17 @@
                         long calls, or administrative hassle) and securely
                     </p>
                 </div>
-                <button id="download">Download<img src="images/arrow_donw.png" class="arrow" id="arrow_down_1"></button>
+                <div class="download">
+                    <button id="download">Download<img src="images/arrow_donw.png" class="arrow" id="arrow_down_1"></button>
+                </div>
             </div>
-            <div class="image">
-                <img src="images/vec-1.svg" id="first_image">
-            </div>
-            <div class="element_vector_top">
-                <img src="images/element.svg" alt="element1">
+            <div class="images_hero">
+                <div class="image">
+                    <img src="images/vec-1.svg" id="first_image">
+                </div>
+                <div class="element_vector_top">
+                    <img src="images/element.svg" alt="element1">
+                </div>
             </div>
         </div>
     </header>
@@ -73,7 +78,7 @@
                 <h1>Check out our latest arcticle</h1>
             </div>
         </div>
-        <div class="underscore_2"></div>
+        <div class="underscore_2"> </div>
         <article class="arcticles_container">
             <article class="arcticle">
                 <img class="arcticle-img-top" src="images/image 1.jpg" alt="Arcticle image A1">
@@ -111,14 +116,16 @@
             <div class="title_3">
                 <h1>What our customer are saing</h1>
             </div>
-            <div class="underscore_3"></div>
+            <div class="underscore_3"> </div>
             <div class="rew_container">
-                <div class="photo_of_person">
-                    <img src="images/image 4.jpg" id="second_image">
-                </div>
                 <div class="container_about_person">
-                    <div class="name"><b>Edvart Newgate</b></div>
-                    <div class="description2">Founder Circle</div>
+                    <div class="photo_of_person">
+                        <img src="images/image 4.jpg" id="second_image">
+                    </div>
+                    <div class="name_container">
+                        <div class="name"><b>Edvart Newgate</b></div>
+                        <div class="description2">Founder Circle</div>
+                    </div>
                 </div>
                 <p class="rew_text">"Our dedicated patient engagement app and web portal allow you to access information
                     instantaneously (no tedous form, long
@@ -141,9 +148,6 @@
         </nav>
     </section>
     <footer class="container footer">
-        <div class="element_vector_bottom">
-            <img src="/images/element2.png" alt="element2">
-        </div>
         <div class="logo logo_bottom">
             <div class="circle_bg bottom_circle_bg">
                 <span class="letter"><b>T</b></span>
@@ -154,18 +158,22 @@
         </div>
         <nav class="footer_nav">
             <ul>
-                <li class="nav__footer-item1">
-                    <a class="footer__nav-link" href=""> Company</a>
+                <li class="nav__footer-item">
+                    <a> Company</a>
                 </li>
-                <li class="nav__footer-item2">
-                    <a class="footer__nav-link" href="">Region</a>
+                <li class="nav__footer-item">
+                    <a>Region</a>
                 </li>
-                <li class="nav__footer-item3">
-                    <a class="footer__nav-link" href=""> Help</a>
+                <li class="nav__footer-item">
+                    <a> Help</a>
                 </li>
             </ul>
         </nav>
     </footer>
+    <script> document.querySelector('.burger').addEventListener('click', function() {
+        this.classList.toggle('active');
+        document.getElementById('nav-links').classList.toggle('open');})
+    </script>
 </body>
 
 </html>
